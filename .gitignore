@@ -1,37 +1,24 @@
-# Archivos de entorno (Backend)
-/backend/.env
+# --- VARIABLES DE ENTORNO (CRÍTICO) ---
+.env
+.env.local
 
-/backend/HELP.md
-/backend/target/
-/backend/.mvn/wrapper/maven-wrapper.jar
-!**/src/main/**/target/
-!**/src/test/**/target/
+# --- JAVA / MAVEN ---
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+backend/mvnw
+backend/mvnw.cmd
 
-### STS ###
-/backend/.apt_generated
-/backend/.classpath
-/backend/.factorypath
-/backend/.project
-/backend/.settings
-/backend/.springBeans
-/backend/.sts4-cache
+# --- ARCHIVOS DE EDITORES (IDE) ---
+.vscode/
+.idea/
+*.iws
+*.iml
+*.ipr
+backend/.classpath
+backend/.project
+backend/.settings/
+backend/.factorypath
 
-### IntelliJ IDEA ###
-/backend/.idea
-/backend/*.iws
-/backend/*.iml
-/backend/*.ipr
-
-### NetBeans ###
-/backend/nbproject/private/
-/backend/nbbuild/
-/backend/dist/
-/backend/nbdist/
-/backend/.nb-gradle/
-/backend/build/
-!**/src/main/**/build/
-!**/src/test/**/build/
-
-### VS Code ###
-/backend/.vscode/
-/.vscode/
+# --- SISTEMA ---
+.DS_Store
+Thumbs.db
